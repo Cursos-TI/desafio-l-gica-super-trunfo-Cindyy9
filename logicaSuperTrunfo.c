@@ -1,13 +1,16 @@
 #include <stdio.h>
 
 int main() {
+    
+    printf("Super trunfo! \n");
+
     char Nome1[50];
     float area;
     unsigned int populacao;
     int turismo;
     char codigo[10];
 
-     printf("Digite o nome da cidade: \n");
+     printf("\nDigite o nome da cidade: \n");
     fgets(Nome1, sizeof(Nome1), stdin);
 
     printf("Digite a área: \n");
